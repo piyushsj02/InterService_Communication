@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/feign")
 public class FeignController {
 
-    private final ProviderFeignClient providerFeignClient;
+    private final ProducerFeignClient producerFeignClient;
 
     @GetMapping("/instance")
     public String getInstance(){
-        return providerFeignClient.getInstanceInfo();
+        return producerFeignClient.getInstanceInfo();
     }
 }
