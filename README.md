@@ -8,13 +8,11 @@ A demonstration project showcasing different approaches to communication between
 - Service-to-service communication
 - Spring Boot 4.x
 - Spring Web
-- Spring Data JPA
-- MySQL Database
-- Maven Build
-- Layered Architecture
-- Exception Handling
-- Validation
-- Clean and Modular Code Structure
+- Spring Cloud OpenFeign
+- RestClient (Spring Boot replacement for RestTemplate)
+- WebClient (Reactive HTTP client)
+- RestTemplate (legacy synchronous client)
+- HttpInterface (Spring Boot 3 declarative HTTP client)
 
 ---
 
