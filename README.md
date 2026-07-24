@@ -57,8 +57,8 @@ Runs on port 8080
 
 ## Demonstrates calling Producer APIs via:
 
-Feign Client → /api/feign/instance
-RestClient → /api/rest-client/instance
-WebClient → /api/web-client/instance
-RestTemplate → /api/rest-template/instance
-HttpInterface → /api/http-interface/instance
+- Feign Client → /api/feign/instance
+- RestClient → /api/rest-client/instance
+- WebClient → /api/web-client/instance
+- RestTemplate → /api/rest-template/instance
+- HttpInterface → /api/http-interface/instance
